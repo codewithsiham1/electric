@@ -1,0 +1,67 @@
+/* Home page container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Heading section */
+.heading-section {
+    margin-bottom: 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Wrapper for both Sidebar and Product Cards */
+.content-wrapper {
+    display: flex; /* Flexbox layout for sidebar and products */
+    gap: 20px; /* Space between product cards and sidebar */
+    justify-content: space-between; /* Distribute space between the content */
+}
+
+/* Products container (taking up full available space) */
+.products {
+    flex-grow: 1; /* Take up remaining space */
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr); /* 3 columns for product cards */
+    gap: 20px; /* Space between product cards */
+}
+
+/* Sidebar styling (fixed to the right side) */
+.sidebar {
+    width: 200px; /* Fixed width for the sidebar */
+    max-width: fit-content;
+    background-color: #f4f4f4; /* Light background for sidebar */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: static;
+    top: 0;
+    height: 50vh; /* Full height of the viewport */
+    overflow-y: auto; /* Allow scrolling in case of overflow */
+}
+
+/* For smaller screens */
+@media (max-width: 1024px) {
+    .content-wrapper {
+        flex-direction: column; /* Stack sidebar and product cards on medium screens */
+    }
+
+    .sidebar {
+        width: 100%;
+        
+         /* Sidebar takes full width on smaller screens */
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for product cards on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .products {
+        grid-template-columns: 1fr; /* 1 column for product cards on smaller screens */
+    }
+}

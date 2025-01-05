@@ -1,0 +1,35 @@
+[
+    {
+      "button_id": "all-products",
+      "category": "All Products",
+      "category_id": "all-products"
+    },
+    {
+      "button_id": "Home",
+      "category": "Home",
+      "category_id": "Home"
+    },
+    {
+      "button_id": "Accessories",
+      "category": "Accessories",
+      "category_id": "Accessories"
+    },
+    {
+      "button_id": "Kitchen",
+      "category": "Kitchen",
+      "category_id": "Kitchen"
+    },
+    {
+      "button_id": "Electronics",
+      "category": "Electronics",
+      "category_id": "Electronics"
+    },
+    {
+      "button_id": "Wearables",
+      "category": "Wearables",
+      "category_id": "Wearables"
+    }
+   
+  ]
+  
+  

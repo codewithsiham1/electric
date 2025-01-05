@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-navbar {
+    background-color: #1e40af; /* উদাহরণস্বরূপ */
+  }
+  
+  .banner {
+    background-image: url('/path-to-your-banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .banner-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .detail-container ul.specifications li {
+    margin-bottom: 5px;
+  }

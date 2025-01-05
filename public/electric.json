@@ -1,0 +1,197 @@
+[
+    {
+      "product_id": "P001",
+      "product_title": "Wireless  Headphones",
+      "product_image": "https://i.ibb.co.com/mGKxpLx/istockphoto-1412240771-612x612.jpg",
+      "category": "Electronics",
+      "price": 49.99,
+      "description": "High-quality wireless Bluetooth headphones with noise cancellation.",
+      "specifications": [
+        "Bluetooth 5.0",
+        "20 hours battery life",
+        "Noise-cancelling",
+        "Lightweight design"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "SoundMax"
+    },
+    {
+      "product_id": "P002",
+      "product_title": "Smartphone Stand",
+      "product_image": "https://i.ibb.co.com/F7myL7w/istockphoto-1355329741-612x612.jpg",
+      "category": "Accessories",
+      "price": 9.99,
+      "description": "Adjustable smartphone stand for hands-free viewing.",
+      "specifications": [
+        "360-degree rotation",
+        "Anti-slip base",
+        "Durable plastic material"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "FlexiStand"
+    },
+    {
+      "product_id": "P003",
+      "product_title": "Gaming Mouse",
+      "product_image": "https://i.ibb.co.com/X3BNBj3/360-F-625072874-e-Roy4-HUb8-IOz-Tx-Cn-S6j-LT32-Cha-PG3rvb.jpg",
+      "category": "Electronics",
+      "price": 29.99,
+      "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+      "specifications": [
+        "6 programmable buttons",
+        "Adjustable DPI settings",
+        "RGB lighting"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "GamePro"
+    },
+    {
+      "product_id": "P004",
+      "product_title": "4K Ultra HD Smart TV",
+      "product_image": "https://i.ibb.co.com/txcDkjP/59ae6e223c053-1504603682.jpg",
+      "category": "Electronics",
+      "price": 399.99,
+      "description": "Experience stunning visuals with this 4K Ultra HD Smart TV.",
+      "specifications": [
+        "4K resolution",
+        "Smart TV features",
+        "3 HDMI ports",
+        "Built-in Wi-Fi"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "VisionTech"
+    },
+    {
+      "product_id": "P005",
+      "product_title": "Portable Power Bank",
+      "product_image": "https://i.ibb.co.com/1T5sY2k/360-F-213329116-Zm-DVbu-M75dld-Zbey-VCi-Lurdh-M9-OHd-Zm2.jpg",
+      "category": "Accessories",
+      "price": 19.99,
+      "description": "Compact power bank with fast charging support.",
+      "specifications": [
+        "10,000mAh capacity",
+        "Dual USB ports",
+        "LED battery indicator"
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "brand": "ChargePro"
+    },
+    {
+      "product_id": "P006",
+      "product_title": "Fitness Tracker",
+      "product_image": "https://i.ibb.co.com/tQfmjVg/images.jpg",
+      "category": "Wearables",
+      "price": 39.99,
+      "description": "Track your fitness and health with this smart fitness tracker.",
+      "specifications": [
+        "Heart rate monitor",
+        "Step counter",
+        "Sleep tracking"
+      ],
+      "availability": false,
+      "rating": 4.3,
+      "brand": "FitTrack"
+    },
+    {
+      "product_id": "P007",
+      "product_title": "Wireless Keyboard and Mouse",
+      "product_image": "https://i.ibb.co.com/zbgt2FW/81-KZLende-ML.jpg",
+      "category": "Electronics",
+      "price": 24.99,
+      "description": "Wireless keyboard and mouse combo for convenient use.",
+      "specifications": [
+        "2.4GHz wireless connection",
+        "Ergonomic design",
+        "Plug-and-play"
+      ],
+      "availability": true,
+      "rating": 4.2,
+      "brand": "KeyEase"
+    },
+    {
+      "product_id": "P008",
+      "product_title": "Digital Camera",
+      "product_image": "https://i.ibb.co.com/Tbnj61B/professional-digital-camera-1572370.webp",
+      "category": "Electronics",
+      "price": 299.99,
+      "description": "Capture stunning photos with this high-resolution digital camera.",
+      "specifications": [
+        "20MP sensor",
+        "4K video recording",
+        "Wi-Fi enabled"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "PhotoClick"
+    },
+    {
+      "product_id": "P009",
+      "product_title": "Noise-Cancelling Earbuds",
+      "product_image": "https://i.ibb.co.com/cwfHrZp/bose-quietcomfort-ultra-earbuds-blue-background.webp",
+      "category": "Electronics",
+      "price": 59.99,
+      "description": "Wireless earbuds with active noise cancellation.",
+      "specifications": [
+        "Bluetooth 5.2",
+        "Noise-cancelling",
+        "Up to 30 hours battery"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "EarEase"
+    },
+    {
+      "product_id": "P010",
+      "product_title": "Electric Kettle",
+      "product_image": "https://i.ibb.co.com/N7KVQT1/The-Best-Electric-Kettle-11042018-V1.webp",
+      "category": "Kitchen",
+      "price": 29.99,
+      "description": "Fast boiling electric kettle with auto shut-off.",
+      "specifications": [
+        "1.7L capacity",
+        "Stainless steel",
+        "Auto shut-off"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "KitchenPro"
+    },
+    {
+      "product_id": "P011",
+      "product_title": "Laptop Backpack",
+      "product_image": "https://i.ibb.co.com/BTqXLhB/images-1.jpg",
+      "category": "Accessories",
+      "price": 34.99,
+      "description": "Stylish laptop backpack with multiple compartments.",
+      "specifications": [
+        "Fits laptops up to 15.6 inches",
+        "Water-resistant",
+        "USB charging port"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "CarryMax"
+    },
+    {
+      "product_id": "P012",
+      "product_title": "LED Desk Lamp",
+      "product_image": "https://i.ibb.co.com/nkFm0R0/images-2.jpg",
+      "category": "Home",
+      "price": 19.99,
+      "description": "Energy-efficient LED desk lamp with adjustable brightness.",
+      "specifications": [
+        "3 brightness levels",
+        "Touch control",
+        "Flexible neck"
+      ],
+      "availability": true,
+      "rating": 4.4,
+      "brand": "BrightHome"
+    }
+  ]
+  
