@@ -10,14 +10,14 @@ const ProductDetails = () => {
 
   const handleAddToCart = () => {
     alert(`${product.product_title} কার্টে যোগ করা হয়েছে!`);
-    // এখানে আপনি কার্ট ম্যানেজমেন্ট যুক্ত করতে পারেন
+   
   };
 
   const handleAddToWishlist = () => {
     if (!isWishlisted) {
       setIsWishlisted(true);
       alert(`${product.product_title} উইশলিস্টে যোগ করা হয়েছে!`);
-      // এখানে আপনি উইশলিস্ট ম্যানেজমেন্ট যুক্ত করতে পারেন
+      
     }
   };
 
@@ -27,14 +27,14 @@ const ProductDetails = () => {
 
   return (
     <div className="detail-container flex flex-col items-center p-4 bg-white shadow-lg rounded-lg max-w-4xl mx-auto my-8">
-      {/* পণ্যের ছবি */}
+     
       <img
         src={product.product_image}
         alt={product.product_title}
         className="w-full h-64 object-cover rounded-lg"
       />
 
-      {/* পণ্যের তথ্য */}
+     
       <div className="info mt-4 text-center">
         <h1 className="text-3xl font-bold">{product.product_title}</h1>
         <p className="text-gray-600">ক্যাটাগরি: {product.category}</p>
@@ -54,7 +54,7 @@ const ProductDetails = () => {
         </ul>
       </div>
 
-      {/* বাটনসমূহ */}
+     
       <div className="actions mt-6 flex gap-4">
         <button
           onClick={handleAddToCart}
