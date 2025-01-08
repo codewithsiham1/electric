@@ -9,7 +9,9 @@ const Layouts = () => {
     return (
         <div>
             {/* Navbar */}
+            <div>
             <Navbar></Navbar>
+            </div>
             <div className='min-h-[calc(70vh-232px)]'><Outlet></Outlet></div>
             {/* Dynamic section */}
             {/* footer */}

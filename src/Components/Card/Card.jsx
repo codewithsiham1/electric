@@ -36,20 +36,13 @@ const Card = ({ product, onAddToCart, onAddToWishlist }) => {
           <Link to={`/product/${product.product_id}`}>
             <button className="btn btn-primary">View Details</button>
           </Link>
-          <button
-            onClick={handleAddToWishlist}
-            className={`btn ${isWishlisted ? 'bg-gray-300 text-gray-500 cursor-not-allowed' : 'bg-red-500 text-white'}`}
-            disabled={isWishlisted}
-          >
-            ♥ {isWishlisted ? 'Added to Wishlist' : 'Add to Wishlist'}
-          </button>
+  
         </div>
-        <button onClick={handleAddToCart} className="btn btn-secondary mt-2">
-          🛒 Add to Cart
-        </button>
+        
       </div>
     </div>
   );
 };
 
 export default Card;
+

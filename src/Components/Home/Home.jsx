@@ -6,6 +6,8 @@ import Heading from '../Heading/Heading';
 import'./Home.css'
 import Sidebar from '../Sidebar/Sidebar';
 import { Outlet, useLoaderData } from 'react-router-dom';
+import Banner from '../Banner/Banner';
+import Bannerwatch from '../Bannerwatch/Bannerwatch';
 
 
 const Home = () => {
@@ -15,7 +17,10 @@ console.log(categories)
   
     return (
         <div className='home-container'>
-       
+         <div>
+            <Banner></Banner>
+            <Bannerwatch></Bannerwatch>
+         </div>
         <div className='heading-section'>
         <Heading title={'Explore Cutting-Edge Gadgets'}></Heading>
         </div>

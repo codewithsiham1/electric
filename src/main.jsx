@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -14,7 +14,8 @@ import Heading from './Components/Heading/Heading.jsx';
 import Errorpage from './Components/Errorpage/Errorpage.jsx';
 import ProductCard from './Components/ProductCard/ProductCard.jsx';
 import Productdetails from './Components/Productdetails/Productdetails.jsx';
-
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -45,11 +46,13 @@ const router = createBrowserRouter([
       },
       {
         path:'/statistics',
-        element:<Statistics></Statistics>
+        element:<Statistics></Statistics>,
+        loader: () => fetch('../electric.json')
       },
       {
         path:'/dashboard',
-        element:<Dashboard></Dashboard>
+        element:<Dashboard></Dashboard>,
+        loader: () => fetch('../electric.json')
       }
     
     ]
@@ -58,5 +61,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router}></RouterProvider>
+    <ToastContainer></ToastContainer>
   </StrictMode>,
 )

@@ -1,0 +1,41 @@
+/* Styles for Banner */
+.banner-container {
+   background-color:#9538E2 ;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+    min-height: 400px;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .banner h1 {
+    
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .banner-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .banner-button:hover {
+    background-color: #0056b3;
+  }
+  
